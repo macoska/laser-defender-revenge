@@ -1,0 +1,25 @@
+#################################################
+# Project files and folders
+#################################################
+
+.vscode/
+.vs/
+
+#################################################
+# OS generated files & others
+#################################################
+
+# =====================
+# MacOS generated files
+# =====================
+
+# General
+.DS_Store
+*.icloud
+
+# =====================
+# WindowsOS generated files
+# =====================
+
+# Windows thumbnail cache files
+Thumbs.db
