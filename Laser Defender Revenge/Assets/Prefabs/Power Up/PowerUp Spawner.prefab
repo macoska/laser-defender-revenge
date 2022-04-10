@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1156335099703210352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661590501067433325}
+  - component: {fileID: -6383147459099718445}
+  m_Layer: 0
+  m_Name: PowerUp Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661590501067433325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156335099703210352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6383147459099718445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156335099703210352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2a9c2b2057f4687afa82db20b20871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalSpawnProbability: 0.05
+  powerUps:
+  - {fileID: 932013103081933289, guid: 2733a55be0d0144f6840273503176a84, type: 3}
+  - {fileID: 63431693, guid: 515fc07bfda684527a5e8eb17665ccae, type: 3}
+  - {fileID: 4202012969775879074, guid: 3898520e9fcd442909df026245ba99b9, type: 3}
+  - {fileID: 4968654654841289841, guid: 52255feff03ba4e17b7a171df5376660, type: 3}
+  - {fileID: 3216285451715373949, guid: a8e0a9ed8f18d415bbd1eceb8ed208c0, type: 3}
+  - {fileID: 2817108907223852835, guid: 363522ac2ed414760afc45ee2aced65e, type: 3}
+  - {fileID: 8818676140597856855, guid: 15396cfaf06c349639760d707bb03349, type: 3}
+  spawnProbabilities:
+  - 0.3
+  - 0.2
+  - 0.2
+  - 0.1
+  - 0.1
+  - 0.05
+  - 0.049999952
